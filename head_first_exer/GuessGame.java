@@ -1,3 +1,43 @@
+//                                                      we need three different files for three different classes 
+
+
+
+
+
+
+//                                                                  the main method GameLauncher.java   :
+
+
+
+public class GameLauncher {
+    public static void main(String[] args) {
+        GuessGame game = new GuessGame();       //See Note 1 below
+        game.startGame();
+    }
+}
+
+
+
+//                                                                the player.java   :                 
+
+
+
+public class Player {
+    int number = 0;
+
+    public void guess() {
+        number = (int)(Math.random() * 10);
+        System.out.println("I'm guessing " + number);
+
+    }
+
+}
+
+
+
+
+//                                                                  in the GuessGame.java   :
+
 public class GuessGame {
     //guessgame has three instances variables for three player objs
     Player p1;
