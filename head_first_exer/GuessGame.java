@@ -26,5 +26,12 @@
      //make a target number the number that the player must guess 
         int targetNumber = (int) (Math.random() * 10);
         System.out.println("Im thinking of a number between 0 and 9... ")
-    }
+    
+         while (true) {
+         
+         }
+     
+     
+     }
+  
 }
