@@ -1,9 +1,15 @@
 <h1># Java_course</h1>
+<br>
+<br>
 <br><h2>ALL my Java exercise </h2>
+<br>
 <h3>
 - from Learing Head First java<br>
+ <br>
 - CodeGym<br>
+ <br>
 - Solo Learn<br>
+ <br>
 - Java masterclass from Udemy<br>
 
  </h3>
